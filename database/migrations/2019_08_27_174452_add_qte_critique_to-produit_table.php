@@ -17,7 +17,7 @@ class AddQteCritiqueToProduitTable extends Migration
          * @param Blueprint $table
          */
             'produit', function (Blueprint $table) {
-                 $table->integer('qteCritique')->nullable()->change();
+                 $table->integer('qteCritique')->nullable();
         });
     }
 
