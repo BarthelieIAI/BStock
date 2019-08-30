@@ -18,9 +18,12 @@ use Illuminate\Support\Facades\Route;
 });
 
 
-*/
+/**
+ * Admin routes
+ */
 
-Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
+Route :: group ([ 'middleware' => [ 'auth' ]], function () {
+    Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
 /*Route::get('/home', 'HomeController@index')->name('home');*/
 Auth::routes();
@@ -37,21 +40,18 @@ Route:: resource('categorie','Categorie\CategorieController');
 
 Route::resource('groupe','Groupe\GroupeController');
 
-Route::get('verrouiller',function(){
-    return Route('login');
-});
 Route::resource('demande','Demande\DemandeController');
 
 Route::resource('concerner','Concerner\ConcernerController');
 
 Route::resource('composer','Composer\ComposerController');
 
-/**
- * Admin routes
- */
 Route::resource('role','Admin\RolesControllers');
 
 Route::resource('permission','Admin\PermissionsControllers');
+
+Route::resource('user','Admin\UserManagementController');
+});
 
 Route::get('assign',function ()
 {
@@ -70,6 +70,6 @@ Route::get('/' ,function(){
 Route::get('donner/users','Admin\UserManagementController@donner')
     ->name('userRole');
 
-Route::resource('user','Admin\UserManagementController');
+
 Route::get('__construct/authenticate','Admin\UserManegementController@__construct')
     ->name('session');
