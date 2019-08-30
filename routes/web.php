@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
  * Admin routes
  */
 
-Route :: group ([ 'middleware' => [ 'auth' ]], function () {
+
     Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
 /*Route::get('/home', 'HomeController@index')->name('home');*/
@@ -51,7 +51,7 @@ Route::resource('role','Admin\RolesControllers');
 Route::resource('permission','Admin\PermissionsControllers');
 
 Route::resource('user','Admin\UserManagementController');
-});
+
 
 Route::get('assign',function ()
 {

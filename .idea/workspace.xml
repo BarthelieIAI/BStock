@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a4063c4-55df-485a-9e47-cc3efa69fafc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,14 +17,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RolesControllers.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RolesControllers.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/RolesControllers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1898">
-              <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+            <state relative-caret-position="18">
+              <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
               <folding>
                 <element signature="e#46#70#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,10 +102,10 @@
         <option value="$PROJECT_DIR$/routes/channels.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/database/seeds/PermissionTableSeeder.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/vendor/spatie/laravel-permission/src/Models/Permission.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/RolesControllers.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Produits/ProduitController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -137,7 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,12 +241,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="produitC&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Produits/ProduitController.php&#10;create_per&#9;FILE&#9;file://C:/laragon/www/BStock/vendor/spatie/laravel-permission/database/migrations/create_permission_tables.php.stub&#10;creapermission&#9;null&#9;null&#10;ermission&#9;FILE&#9;file://C:/laragon/www/BStock/vendor/spatie/laravel-permission/src/Models/Permission.php&#10;roleC&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Admin/RolesControllers.php&#10;web&#9;FILE&#9;file://C:/laragon/www/BStock/routes/web.php&#10;demande&#9;FILE&#9;file://C:/laragon/www/BStock/database/migrations/2019_07_24_122655_create__demande_table.php&#10;fou&#9;null&#9;null&#10;fourni&#9;null&#9;null&#10;appr&#9;null&#9;null&#10;conc&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Concerner/ConcernerController.php&#10;composerC&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Composer/ComposerController.php&#10;personne&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Personnels/PersonnelController.php&#10;das&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/admin/users/dashboard.blade.php&#10;navb&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/layouts/template/navbar.blade.php&#10;we&#9;FILE&#9;file://C:/laragon/www/BStock/routes/web.php&#10;Web&#9;FILE&#9;file://C:/laragon/www/BStock/routes/web.php&#10;produit&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Produits/ProduitController.php&#10;login&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Auth/LoginController.php&#10;pro&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Produits/ProduitController.php&#10;acc&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Accueil/AccueilController.php&#10;index&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/Produits/index.blade.php&#10;personn&#9;null&#9;null&#10;compose&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Composer/ComposerController.php&#10;create&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/Concerner/create.blade.php&#10;concerner&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Concerner/ConcernerController.php&#10;produi*&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Produits/ProduitController.php&#10;prod&#9;FILE&#9;file://C:/laragon/www/BStock/app/Model/Produit.php&#10;edit&#9;null&#9;null&#10;index.blade.&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/Produits/index.blade.php&#10;produi&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Produits/ProduitController.php&#10;personnelC&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Personnels/PersonnelController.php&#10;home&#9;null&#9;null&#10;u&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Admin/UserManagementController.php&#10;web.&#9;FILE&#9;file://C:/laragon/www/BStock/routes/web.php&#10;lo&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Auth/LoginController.php&#10;concerF&#9;null&#9;null&#10;cre&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/Composer/create.blade.php&#10;compo&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Composer/ComposerController.php&#10;composer&#9;null&#9;null&#10;conce&#9;null&#9;null&#10;LOGIN.BL&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/auth/login.blade.php&#10;LOGIN&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/layouts/template/login.blade.php&#10;login.bl&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/login.blade.php&#10;menu&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/layouts/template/menu.blade.php&#10;permi&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Admin/PermissionsControllers.php&#10;user&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Admin/UserManagementController.php&#10;welcome&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/welcome.blade.php&#10;men&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/layouts/template/menu.blade.php&#10;log&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Auth/LoginController.php" />
+    <property name="SearchEverywhereHistoryKey" value="web.php&#9;FILE&#9;file://C:/laragon/www/BStock/routes/web.php&#10;produitC&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Produits/ProduitController.php&#10;create_per&#9;FILE&#9;file://C:/laragon/www/BStock/vendor/spatie/laravel-permission/database/migrations/create_permission_tables.php.stub&#10;creapermission&#9;null&#9;null&#10;ermission&#9;FILE&#9;file://C:/laragon/www/BStock/vendor/spatie/laravel-permission/src/Models/Permission.php&#10;roleC&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Admin/RolesControllers.php&#10;web&#9;FILE&#9;file://C:/laragon/www/BStock/routes/web.php&#10;demande&#9;FILE&#9;file://C:/laragon/www/BStock/database/migrations/2019_07_24_122655_create__demande_table.php&#10;fou&#9;null&#9;null&#10;fourni&#9;null&#9;null&#10;appr&#9;null&#9;null&#10;conc&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Concerner/ConcernerController.php&#10;composerC&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Composer/ComposerController.php&#10;personne&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Personnels/PersonnelController.php&#10;das&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/admin/users/dashboard.blade.php&#10;navb&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/layouts/template/navbar.blade.php&#10;we&#9;FILE&#9;file://C:/laragon/www/BStock/routes/web.php&#10;Web&#9;FILE&#9;file://C:/laragon/www/BStock/routes/web.php&#10;produit&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Produits/ProduitController.php&#10;login&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Auth/LoginController.php&#10;pro&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Produits/ProduitController.php&#10;acc&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Accueil/AccueilController.php&#10;index&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/Produits/index.blade.php&#10;personn&#9;null&#9;null&#10;compose&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Composer/ComposerController.php&#10;create&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/Concerner/create.blade.php&#10;concerner&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Concerner/ConcernerController.php&#10;produi*&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Produits/ProduitController.php&#10;prod&#9;FILE&#9;file://C:/laragon/www/BStock/app/Model/Produit.php&#10;edit&#9;null&#9;null&#10;index.blade.&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/Produits/index.blade.php&#10;produi&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Produits/ProduitController.php&#10;personnelC&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Personnels/PersonnelController.php&#10;home&#9;null&#9;null&#10;u&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Admin/UserManagementController.php&#10;web.&#9;FILE&#9;file://C:/laragon/www/BStock/routes/web.php&#10;lo&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Auth/LoginController.php&#10;concerF&#9;null&#9;null&#10;cre&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/Composer/create.blade.php&#10;compo&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Composer/ComposerController.php&#10;composer&#9;null&#9;null&#10;conce&#9;null&#9;null&#10;LOGIN.BL&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/auth/login.blade.php&#10;LOGIN&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/layouts/template/login.blade.php&#10;login.bl&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/login.blade.php&#10;menu&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/layouts/template/menu.blade.php&#10;permi&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Admin/PermissionsControllers.php&#10;user&#9;FILE&#9;file://C:/laragon/www/BStock/app/Http/Controllers/Admin/UserManagementController.php&#10;welcome&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/welcome.blade.php&#10;men&#9;FILE&#9;file://C:/laragon/www/BStock/resources/views/layouts/template/menu.blade.php" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/php/php-7.2.19-Win32-VC15-x64" />
   </component>
@@ -382,14 +391,16 @@
       <workItem from="1566982645790" duration="21674000" />
       <workItem from="1567027431353" duration="4976000" />
       <workItem from="1567089343560" duration="7745000" />
+      <workItem from="1567160731341" duration="253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="480060000" />
+    <option name="totallyTimeSpent" value="480313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="1" width="1378" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25844347" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -561,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,27 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="42" column="43" lean-forward="false" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-          <folding>
-            <marker date="1567015387637" expanded="true" signature="9:37" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="50:56" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="91:104" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="186:195" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="355:375" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="511:535" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="1042:1059" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="1091:1105" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="1091:1109" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="1141:1151" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="1141:1159" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="1192:1206" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="1274:1317" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="1392:1432" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="1510:1550" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="1594:1608" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="1920:1934" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="1977:2021" ph="..." />
-            <marker date="1567015387637" expanded="true" signature="2076:2124" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,26 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="50" />
-          <folding>
-            <marker date="1567011825231" expanded="true" signature="9:37" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="50:56" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="102:115" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="173:182" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="357:377" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="531:564" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="1197:1219" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="1257:1285" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="1324:1343" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="1324:1347" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="1385:1409" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="1490:1547" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="1699:1753" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="1874:1928" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="1979:1993" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="2337:2351" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="2395:2439" ph="..." />
-            <marker date="1567011825231" expanded="true" signature="2495:2543" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,17 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="28" column="14" lean-forward="false" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <marker date="1567015654451" expanded="true" signature="9:37" ph="..." />
-            <marker date="1567015654451" expanded="true" signature="50:56" ph="..." />
-            <marker date="1567015654451" expanded="true" signature="91:104" ph="..." />
-            <marker date="1567015654451" expanded="true" signature="153:162" ph="..." />
-            <marker date="1567015654451" expanded="true" signature="444:467" ph="..." />
-            <marker date="1567015654451" expanded="true" signature="713:726" ph="..." />
-            <marker date="1567015654451" expanded="true" signature="936:954" ph="..." />
-            <marker date="1567015654451" expanded="true" signature="1151:1169" ph="..." />
-            <marker date="1567015654451" expanded="true" signature="1371:1385" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,14 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -877,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1277">
           <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -893,11 +838,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/RolesControllers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1898">
-          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        <state relative-caret-position="18">
+          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
           <folding>
             <element signature="e#46#70#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
