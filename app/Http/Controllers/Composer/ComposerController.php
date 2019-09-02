@@ -1,9 +1,10 @@
 <?php
 
 namespace App\Http\Controllers\Composer;
-
+use\App\Model\Approvisionnement;
 use App\ComposerForm;
 use App\Model\Composer;
+use App\Model\Produit;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
@@ -81,14 +82,25 @@ class ComposerController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show()
-    {
-        $composers = Composer::find();
 
-        return view('Composer.show',[
-                'composer'=>$composers
-            ]
-        );
+    public function show($id)
+    {
+        $composers=DB::table('composer_de')
+            -> join('produit', 'composer_de.prod_id','=' ,'produit.id')
+            ->distinct()
+            ->join('approvisionnement','composer_de.Appro_id','=','approvisionnement.id')
+            ->distinct()
+            ->select('produit.libelle','approvisionnement.nomAppro','composer_de.*')
+            ->get();
+
+        foreach ($composers as $composer)
+            {
+                $composer = Produit::find($id);
+                return view('Composer.show',[
+
+                    ]
+                );
+             }
     }
 
     /**
@@ -135,7 +147,7 @@ class ComposerController extends Controller
                 ->back()
                 ->withErrors($form->getErrors())
                 ->withInput();
-            $composer = Composer::find($libelle);
+            $composer = Composer::find();
         }
 
             $composer->update($form->getFieldValues());

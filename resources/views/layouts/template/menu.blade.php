@@ -38,7 +38,7 @@
                        href="{{Route('produit.create')}}">
                         <i class="icon fa fa-plus">
                         </i>
-                        Créé un nouveau produit
+                        Créer un nouveau produit
                     </a>
                 </li>
             </ul>
@@ -62,7 +62,7 @@
                        href="{{Route('categorie.create')}}">
                         <i class="icon fa fa-plus-square">
                         </i>
-                        Créé une nouvelle categeorie
+                        Créer une nouvelle categeorie
                     </a>
                 </li>
             </ul>
@@ -86,7 +86,7 @@
                        href="{{Route('fournisseur.create')}}">
                         <i class="icon fa fa-plus-circle">
                         </i>
-                        Créé un nouvel fournisseur
+                        Créer un nouveau fournisseur
                     </a>
                 </li>
             </ul>
@@ -110,7 +110,7 @@
                        href="{{Route('approvisionnement.create')}}">
                         <i class="icon fa fa-plus-circle">
                         </i>
-                        Créé un nouvel approvisionnement
+                        Créer un nouvel approvisionnement
                     </a>
                 </li>
             </ul>
@@ -121,21 +121,21 @@
                href="#" data-toggle="treeview">
                 <i class="app-menu__icon fa fa-user-circle-o">
                 </i>
-                <span class="app-menu__label">Personnels</span>
+                <span class="app-menu__label">Personnel</span>
                 <i class="treeview-indicator fa fa-angle-right"></i></a>
             <ul class="treeview-menu">
                 <li><a class="treeview-item"
                        href="{{Route('personnel.index')}}">
                         <i class="icon fa fa-eye-slash">
                         </i>
-                        Afficher les personnels
+                        Afficher le personnel
                     </a>
                 </li>
                 <li><a class="treeview-item"
                        href="{{Route('personnel.create')}}">
                         <i class="icon fa fa-plus">
                         </i>
-                        Créé un nouveau personnel
+                        Créer un nouveau personnel
                     </a>
                 </li>
             </ul>
@@ -152,7 +152,7 @@
                        href="{{Route('groupe.index')}}">
                         <i class="icon fa fa-eye-slash">
                         </i>
-                        Afficher les groupes de personnels
+                        Afficher les groupes de personnes
                     </a>
                 </li>
                 <li>
@@ -160,7 +160,7 @@
                        href="{{Route('groupe.create')}}">
                         <i class="icon fa fa-plus-square">
                         </i>
-                        Créé un nouveau groupe de personnels
+                        Créer un nouveau groupe de personnes
                     </a>
                 </li>
             </ul>
@@ -180,7 +180,7 @@
                             href="{{Route('composer.index')}}">
                         <i class="icon fa fa-file">
                         </i>
-                                Entré de produits
+                                Entrée de produits
                     </a>
                 </li>
                 <li>
@@ -188,7 +188,7 @@
                        href="{{Route('concerner.index')}}">
                         <i class="icon fa fa-file-o">
                         </i>
-                        Sorti de produits
+                        Sortie de produits
                     </a>
                 </li>
             </ul>

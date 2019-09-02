@@ -42,7 +42,7 @@
         <div class = "col-xs-12. col-sm-12. col-md-12" >
             <div class = "form-group" >
                 <strong> Date d'entrée: </strong>
-                {{$compose->Date}}
+                {{$composem->Date}}
             </div>
         </div>
     </div>
