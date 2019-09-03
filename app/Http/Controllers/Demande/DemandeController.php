@@ -8,6 +8,10 @@ use App\Http\Controllers\Controller;
 use App\Model\Demande;
 use Illuminate\Support\Facades\DB;
 use Kris\LaravelFormBuilder\FormBuilder;
+use App\Model\Produit;
+use App\Model\Concerner;
+use Auth;
+
 class DemandeController extends Controller
 {
     /**
@@ -23,7 +27,8 @@ class DemandeController extends Controller
         ->select('demande.*', 'users.name')
         ->get();
         return view('Demande.index', [
-            'demandes' => $demandes
+            'demandes' => $demandes,
+
         ]);
     }
 
@@ -32,15 +37,9 @@ class DemandeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create(FormBuilder $formBuilder)
+    public function create()
     {
-        $form=$formBuilder->create(DemandeForm::class,[
-            'method'=>'POST',
-            'url'=>route('demande.store')
-        ]);
-        return view('Demande.create',[
-            'form'=>$form
-        ]);
+        return view('Demande.create', ['produits' => Produit::all()]);
     }
 
     /**
@@ -49,8 +48,48 @@ class DemandeController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(FormBuilder $formBuilder)
+    public function store(Request $request,FormBuilder $formBuilder)
     {
+        //dd($request->all());
+        $produits = Produit::all();
+        foreach($produits as $produit)
+        {
+                if ( isset($request->choix[$produit->id]) && $request->choix[$produit->id] == 'on')
+                    if($request->qte[$produit->id] == null)
+                      return "Error : La qte du produit ". $produit->libelle. " est introvable" ;
+        }
+
+      //  dd(Auth::user()->id);
+
+        Demande::create([
+            'Libelle' =>  $request->description,
+            'user_id' =>  1,
+            'user_dmd_id' =>  Auth::user()->id,
+        ]);
+
+        $dmd = Demande::all()->last();
+
+
+        foreach($produits as $produit)
+        {
+            if ( isset($request->choix[$produit->id]) && $request->choix[$produit->id] == 'on')
+                if($request->qte[$produit->id] != null)
+                {
+                    Concerner::create([
+                        'Prod_id' => $produit->id,
+                        'Dem_id' => $dmd->id,
+                        'Quantite' => $request->qte[$produit->id],
+                    ]);
+                }
+        }
+
+       $cons =  Concerner::where(['Dem_id'  =>  $dmd->id])
+                    ->leftJoin('produit', 'concerner.Prod_id' , '=', 'produit.id')
+                    ->get();
+
+        return $dmd. '<br/>' . $cons;
+
+       /* dd($request->all());
         $form=$formBuilder->create(DemandeForm::class);
 
         if(!$form->isValid()){
@@ -67,7 +106,7 @@ class DemandeController extends Controller
 
         $dem->save();
 
-        return redirect()->route('demande.index')->with('demande enregistrée ');
+        return redirect()->route('demande.index')->with('demande enregistrée ');*/
     }
 
     /**

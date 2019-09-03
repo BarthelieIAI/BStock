@@ -23,22 +23,22 @@
     </div>
         <table class="table table-hover table-bordered" id="Produit-table" >
 
-            <thead>
-            <th class="th-sm">Code</th>
-            <th class=" th-sm">Libelle</th>
-            <th class="th-sm">Quantité</th>
-            <th class="th-sm">categorie</th>
-            <th class="th-sm">Etat</th>
-            <th>Action</th>
+                            <thead>
+                            <th class="th-sm">Code</th>
+                            <th class=" th-sm">Libelle</th>
+                            <th class="th-sm">Quantité</th>
+                            <th class="th-sm">categorie</th>
+                            <th class="th-sm">Etat</th>
+                            <th>Action</th>
 
-            </thead>
-            <tbody>
-            @foreach($products as $produit)
-                <tr>
-                    <td>{{$produit->id}}</td>
-                    <Td>{{$produit->libelle}}</Td>
-                    <td>{{$produit->quantite}}</td>
-                    <td>
+                            </thead>
+                            <tbody>
+                            @foreach($products as $produit)
+                                <tr>
+                                    <td>{{$produit->id}}</td>
+                                    <Td>{{$produit->libelle}}</Td>
+                                    <td>{{$produit->quantite}}</td>
+                                    <td>
                         <a href="{{route('categorie.show',$produit->cat_id)}}">{{$produit->libelles}}</a>
                     </td>
                     <td class="btn {{($produit->etat=='critique')? 'btn-danger':'btn-success'}}" style="color:white;">

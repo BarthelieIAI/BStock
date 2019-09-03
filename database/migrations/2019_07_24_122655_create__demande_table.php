@@ -18,9 +18,9 @@ class CreateDemandeTable extends Migration
             $table->unsignedBigInteger('user_id');
             $table->string('Libelle');
             $table->foreign('user_id')->references('id')->on('users');
-            $table->unsignedBigInteger('client_id');
+            $table->unsignedBigInteger('user_dmd_id');
 
-            $table->foreign('client_id')->references('id')->on('client');
+            $table->foreign('user_dmd_id')->references('id')->on('users');
             $table->timestamps();
         });
     }

@@ -9,5 +9,5 @@ class Demande extends Model
 {
     use SoftDeletes;
     protected  $table = "demande";
-    protected  $fillable = ['Libelle','user_id'];
+    protected  $fillable = ['Libelle','user_id', 'user_dmd_id'];
 }

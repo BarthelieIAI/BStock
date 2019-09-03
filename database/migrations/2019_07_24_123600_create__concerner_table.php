@@ -19,7 +19,7 @@ class CreateConcernerTable extends Migration
             $table->unsignedBigInteger('Dem_id');
             $table->foreign('Dem_id')->references('id')->on('Demande');
             $table->integer('Quantite');
-            $table->date('Date');
+            $table->date('Date')->nullable();
             $table->timestamps();
         });
     }

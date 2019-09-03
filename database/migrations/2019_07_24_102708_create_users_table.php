@@ -23,6 +23,8 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
+            $table->unsignedBigInteger('groupe_id');
+            $table->foreign('groupe_id')->references('id')->on('groupe');
         });
 
 

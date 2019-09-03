@@ -25,7 +25,6 @@ Notification
             <thead>
             <th class="th-sm">Code</th>
             <th class=" th-sm">Libelle</th>
-            <th class="th-sm">user</th>
             <th>Action</th>
 
             </thead>
@@ -34,7 +33,7 @@ Notification
                <tr>
                   <td>{{$demande->id}}</td>
                   <Td>{{$demande->Libelle}}</Td>
-                  <td>{{$demande->user_id}}</td>
+
 
                   <td>
                      <form action="{{Route('demande.destroy',$demande->id)}}" method="POST">
